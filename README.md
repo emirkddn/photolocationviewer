@@ -12,6 +12,18 @@ EXIF (Exchangeable Image File Format) files store important data about photograp
 
 
 
+## Technologies
+**Python** - Core programming language
+
+**Tkinter**- GUI framework
+
+**Folium** - Map generation
+
+**Pillow (PIL)** - Image processing
+
+**Selenium** - Map rendering
+
+
 # Installation
 ## Requirements
 Python 3.8+
@@ -22,27 +34,22 @@ Pip package manager
 Clone the repository:
 
 ```
-git clone https://github.com/emirkddn/mimoza.git
-cd mimoza
+git clone https://github.com/emirkddn/photolocationviewer
+
+```
+```
+cd photolocationviewer
 ```
 
 Install required packages:
 ```
-pip install -r requirements.txt
+pip install Pillow folium selenium
 ```
 
-# Usage
+## Usage
 ```
 python menuscreen.py
 ```
 
-# Technologies
-**Python** - Core programming language
 
-**Tkinter**- GUI framework
 
-**Folium** - Map generation
-
-**Pillow (PIL)** - Image processing
-
-**Selenium** - Map rendering
