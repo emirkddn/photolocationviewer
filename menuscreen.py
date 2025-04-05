@@ -65,7 +65,6 @@ class MenuApp(tk.Frame):
 def main():
     root = tk.Tk()
     root.title("Mimoza")
-    root.iconbitmap("location.ico")
     root.minsize(600, 700)
     root.maxsize(600, 700)
 
