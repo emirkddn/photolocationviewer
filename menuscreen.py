@@ -1,3 +1,4 @@
+import base64
 from tkinter import *
 import tkinter as tk
 from tkinter import filedialog
@@ -35,6 +36,7 @@ class MenuApp(tk.Frame):
         self.current_image_path = None
         self.gps_info = None
 
+
     def upload_image(self):
         file_path = filedialog.askopenfilename(filetypes=[("Image Files", "*.png;*.jpg;*.jpeg")])
 
@@ -51,6 +53,7 @@ class MenuApp(tk.Frame):
             except Exception as e:
                 print(f"Error loading image: {e}")
 
+    # Redirect to InfoApp
     def show_information(self):
         if not self.current_image_path:
             return

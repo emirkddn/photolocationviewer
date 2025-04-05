@@ -49,6 +49,7 @@ class InfoApp(tk.Frame):
             lat = self.gps_info['latitude']
             lon = self.gps_info['longitude']
 
+        # Marking location on map
         self.map = Map(self.canvas, lat, lon)
         if self.gps_info:
             self.map.add_marker(lat, lon, "Image Location", "red")

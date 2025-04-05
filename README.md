@@ -13,22 +13,21 @@ EXIF (Exchangeable Image File Format) files store important data about photograp
 
 
 ## Technologies
-**Python** - Core programming language
+* **Python** - Core programming language
 
-**Tkinter**- GUI framework
+* **Tkinter**- GUI framework
 
-**Folium** - Map generation
+* **Folium** - Map generation
 
-**Pillow (PIL)** - Image processing
+* **Pillow (PIL)** - Image processing
 
-**Selenium** - Map rendering
+* **Selenium** - Map rendering
 
 
-# Installation
 ## Requirements
-Python 3.8+
+* Python 3.8+
 
-Pip package manager
+* Pip Package Manager
 
 ## Step-by-Step Installation
 Clone the repository:
